@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="mn3CNbIeq4NcpQfh7FL5">
-    <mxGraphModel dx="1429" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,16 +20,13 @@
           <mxGeometry x="507.5" y="390" width="145" height="270" as="geometry" />
         </mxCell>
         <mxCell id="1Uj5xJLJc5onTLC7o_-8-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="50" width="30" height="60" as="geometry" />
+          <mxGeometry x="90" y="150" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1Uj5xJLJc5onTLC7o_-8-3" value="Data Mart Portal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="40" width="160" height="80" as="geometry" />
+          <mxGeometry x="220" y="140" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1Uj5xJLJc5onTLC7o_-8-5" value="BI-платформа" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="40" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1Uj5xJLJc5onTLC7o_-8-6" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="160" width="760" height="60" as="geometry" />
+          <mxGeometry x="540" y="140" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1Uj5xJLJc5onTLC7o_-8-7" value="Медицина" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="120" height="60" as="geometry" />
@@ -91,7 +88,7 @@
             <mxPoint x="450" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qrYaaobGhruh9hOc1gnp-5" value="отправляет телеметрию &lt;br&gt;о состоянии оборудования&lt;br&gt;&amp;nbsp;в &lt;strong data-end=&quot;2850&quot; data-start=&quot;2837&quot;&gt;Аналитику&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Uj5xJLJc5onTLC7o_-8-33">
+        <mxCell id="qrYaaobGhruh9hOc1gnp-5" value="отправляет телеметрию &lt;br&gt;о состоянии оборудования&lt;br&gt;&amp;nbsp;в &lt;strong data-end=&quot;2850&quot; data-start=&quot;2837&quot;&gt;Аналитику&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1Uj5xJLJc5onTLC7o_-8-33" vertex="1" connectable="0">
           <mxGeometry x="0.2421" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="13" as="offset" />
           </mxGeometry>
@@ -102,7 +99,7 @@
             <mxPoint x="740" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qrYaaobGhruh9hOc1gnp-4" value="получают события от &lt;strong data-end=&quot;2725&quot; data-start=&quot;2713&quot;&gt;Медицины&lt;/strong&gt; &lt;br&gt;о новых медицинских данных &lt;br&gt;для диагностики" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Uj5xJLJc5onTLC7o_-8-34">
+        <mxCell id="qrYaaobGhruh9hOc1gnp-4" value="получают события от &lt;strong data-end=&quot;2725&quot; data-start=&quot;2713&quot;&gt;Медицины&lt;/strong&gt; &lt;br&gt;о новых медицинских данных &lt;br&gt;для диагностики" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1Uj5xJLJc5onTLC7o_-8-34" vertex="1" connectable="0">
           <mxGeometry x="0.1218" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -113,7 +110,7 @@
             <mxPoint x="579.71" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qrYaaobGhruh9hOc1gnp-6" value="отправляют события&lt;br&gt;&amp;nbsp;о наличии препаратов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Uj5xJLJc5onTLC7o_-8-35">
+        <mxCell id="qrYaaobGhruh9hOc1gnp-6" value="отправляют события&lt;br&gt;&amp;nbsp;о наличии препаратов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1Uj5xJLJc5onTLC7o_-8-35" vertex="1" connectable="0">
           <mxGeometry x="0.0316" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -124,7 +121,7 @@
             <mxPoint x="259.71000000000004" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qrYaaobGhruh9hOc1gnp-3" value="создаёт счет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Uj5xJLJc5onTLC7o_-8-36">
+        <mxCell id="qrYaaobGhruh9hOc1gnp-3" value="создаёт счет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1Uj5xJLJc5onTLC7o_-8-36" vertex="1" connectable="0">
           <mxGeometry x="0.2418" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -135,33 +132,27 @@
             <mxPoint x="100" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qrYaaobGhruh9hOc1gnp-2" value="публикует событие&lt;br&gt;&amp;nbsp;о визите пациента " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Uj5xJLJc5onTLC7o_-8-37">
+        <mxCell id="qrYaaobGhruh9hOc1gnp-2" value="публикует событие&lt;br&gt;&amp;nbsp;о визите пациента " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1Uj5xJLJc5onTLC7o_-8-37" vertex="1" connectable="0">
           <mxGeometry x="0.1099" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Uj5xJLJc5onTLC7o_-8-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="260" as="sourcePoint" />
-            <mxPoint x="410" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="1Uj5xJLJc5onTLC7o_-8-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="279.71000000000004" y="160" as="sourcePoint" />
-            <mxPoint x="279.71000000000004" y="120" as="targetPoint" />
+            <mxPoint x="299.71000000000004" y="260" as="sourcePoint" />
+            <mxPoint x="299.71000000000004" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1Uj5xJLJc5onTLC7o_-8-40" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="599.71" y="160" as="sourcePoint" />
-            <mxPoint x="599.71" y="120" as="targetPoint" />
+            <mxPoint x="619.71" y="260" as="sourcePoint" />
+            <mxPoint x="619.71" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1Uj5xJLJc5onTLC7o_-8-42" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="80" as="sourcePoint" />
-            <mxPoint x="200" y="80" as="targetPoint" />
+            <mxPoint x="140" y="180" as="sourcePoint" />
+            <mxPoint x="220" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1Uj5xJLJc5onTLC7o_-8-48" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -214,7 +205,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qrYaaobGhruh9hOc1gnp-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.588;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Uj5xJLJc5onTLC7o_-8-17" target="1Uj5xJLJc5onTLC7o_-8-18">
+        <mxCell id="qrYaaobGhruh9hOc1gnp-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.588;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="1Uj5xJLJc5onTLC7o_-8-17" target="1Uj5xJLJc5onTLC7o_-8-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="451" y="819" as="sourcePoint" />
             <mxPoint x="410" y="570" as="targetPoint" />
